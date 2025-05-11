@@ -1,0 +1,5 @@
+# Database Variables
+DB_HOST			=	XXXXXX
+DB_NAME			=	XXXXXX
+DB_USERNAME		=	XXXXXX
+DB_PASSWORD		=	XXXXXX
