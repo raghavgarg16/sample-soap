@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soap11env:Envelope xmlns:soap11env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="spyne.insertuserservice">
+    <soap11env:Body>
+        <tns:insert_userResponse>
+            <tns:insert_userResult>User Test2 with ID 2 inserted successfully.</tns:insert_userResult>
+        </tns:insert_userResponse>
+    </soap11env:Body>
+</soap11env:Envelope>

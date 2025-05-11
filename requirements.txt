@@ -1,0 +1,12 @@
+# Flask related packages
+Flask==3.1.0
+
+# Python related packages
+python-decouple==3.8
+
+# SOAP related packages
+spyne==2.14.0
+lxml==5.4.0
+
+# Database related packages
+mysql-connector-python==9.3.0

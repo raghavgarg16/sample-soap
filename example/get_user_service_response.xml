@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soap11env:Envelope xmlns:soap11env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="spyne.getuserservice" xmlns:s0="services.get_user_service">
+    <soap11env:Body>
+        <tns:get_user_by_nameResponse>
+            <tns:get_user_by_nameResult>
+                <s0:id>1</s0:id>
+                <s0:name>Test1</s0:name>
+                <s0:email>test1@test.com</s0:email>
+                <s0:phone>+1234567890</s0:phone>
+            </tns:get_user_by_nameResult>
+        </tns:get_user_by_nameResponse>
+    </soap11env:Body>
+</soap11env:Envelope>

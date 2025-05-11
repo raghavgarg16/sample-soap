@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="spyne.getuserservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <tns:get_user_by_name>
+            <tns:name>Test1</tns:name>
+        </tns:get_user_by_name>
+    </soapenv:Body>
+</soapenv:Envelope>
