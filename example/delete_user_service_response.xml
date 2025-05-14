@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soap11env:Envelope xmlns:soap11env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="spyne.deleteuserservice">
+    <soap11env:Body>
+        <tns:delete_userResponse>
+            <tns:delete_userResult>User with ID 4 deleted successfully.</tns:delete_userResult>
+        </tns:delete_userResponse>
+    </soap11env:Body>
+</soap11env:Envelope>

@@ -9,6 +9,7 @@ from werkzeug.serving import run_simple
 from services.get_user_service import get_user_wsgi_app
 from services.insert_user_service import insert_user_wsgi_app
 from services.update_user_service import update_user_wsgi_app
+from services.delete_user_service import delete_user_wsgi_app
 
 # Flask app Instance
 app = Flask(__name__)
@@ -17,7 +18,8 @@ app = Flask(__name__)
 application = DispatcherMiddleware(app.wsgi_app, {
     '/soap/get_user': get_user_wsgi_app,
     '/soap/insert_user': insert_user_wsgi_app,
-    '/soap/update_user': update_user_wsgi_app
+    '/soap/update_user': update_user_wsgi_app,
+    '/soap/delete_user': delete_user_wsgi_app
 })
 
 # Define a simple route for the Flask app
