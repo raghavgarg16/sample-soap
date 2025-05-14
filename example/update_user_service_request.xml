@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="spyne.updateuserservice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tns:update_user>
+         <tns:user_id>2</tns:user_id>
+         <tns:user_name>Test2</tns:user_name>
+         <tns:user_email>test2@test.com</tns:user_email>
+         <tns:user_phone>+919876543210</tns:user_phone>
+      </tns:update_user>
+   </soapenv:Body>
+</soapenv:Envelope>
