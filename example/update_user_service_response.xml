@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soap11env:Envelope xmlns:soap11env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="spyne.updateuserservice">
+    <soap11env:Body>
+        <tns:update_userResponse>
+            <tns:update_userResult>User with ID 2 updated successfully.</tns:update_userResult>
+        </tns:update_userResponse>
+    </soap11env:Body>
+</soap11env:Envelope>
