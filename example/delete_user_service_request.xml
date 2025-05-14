@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="spyne.deleteuserservice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tns:delete_user>
+         <tns:user_id>4</tns:user_id>
+      </tns:delete_user>
+   </soapenv:Body>
+</soapenv:Envelope>
